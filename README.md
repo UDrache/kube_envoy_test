@@ -2,6 +2,7 @@
 Testing load balancing with envoy and kubernetes
 
 minikube start
+
 eval $(minikube docker-env)
 
 build myapp & build envoy
